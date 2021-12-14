@@ -3,7 +3,7 @@ import numpy as np
 import sympy
 import matplotlib.pyplot as plt
 
-
+# data class
 class Models:
     def __init__(self, data):
         self.data = pd.read_csv(data)
